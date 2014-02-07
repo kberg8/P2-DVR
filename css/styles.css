@@ -1,0 +1,56 @@
+.button {
+	background-color: #FF6633;
+	margin: 0 0 20px 0;
+}
+table {
+	text-align: center;
+	width: 100%;
+}
+
+.button:hover {
+	background-color: #666644;
+}
+
+.tabs dd > a {
+	font-size: .75em;
+	padding: 17px;
+}
+
+.content ul {
+	width: 280px;
+}
+
+/* Basic Controls*/
+#panel2-1 ul:nth-child(1) {
+	margin-left: 4px;
+}
+
+#panel2-1 ul:nth-child(2) {
+	margin-left: 11px;
+}
+
+#panel2-1 ul:nth-child(3) {
+	margin-left: 15px;
+}
+
+#panel2-1 ul:nth-child(4) {
+	margin-left: 15px;
+}
+
+
+/* DVR Controls*/
+#panel2-2 ul:nth-child(1) {
+	margin-left: 57px;
+}
+
+#panel2-2 ul:nth-child(2) {
+	margin-left: 54px;
+}
+
+#panel2-2 ul:nth-child(3) {
+	margin-left: 9px;
+}
+
+#panel2-2 ul:nth-child(4) {
+	margin-left: 18px;
+}

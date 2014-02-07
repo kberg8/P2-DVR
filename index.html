@@ -3,14 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>DVR REMOTE</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <script src="js/vendor/modernizr.js"></script>
 
 
   </head>
   <body>
 
+ 
+
+ <!-- POWER  -->
+<div class="row">
+  <div class="small-6 columns">
+    <ul class="button-group">
+      <a href="#" class="button">ON/OFF</a>
+    </ul>
+  </div>
+
+<!-- RECORD  -->
+  <div class="small-6 columns">
+    <ul class="button-group">
+      <a href="#" class="button">RECORD</a>
+    </ul>
+  </div>
+</div> 
 
    
   <div class="row">
@@ -31,75 +49,163 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
-      <li class="active"><a href="#">Controls</a></li>
+      <li class="active"><a href="#">Basic Controls</a></li>
       <li class="has-dropdown">
         <a href="#">DVR Controls</a>
         <ul class="dropdown">
-          <li><a href="#">Play Pause Settings</a></li>
-          <li><a href="#">REW FF Settings</a></li>
+          <li><a href="#">Play Setting</a></li>
+          <li><a href="#">Pause Setting</a></li>
+          <li><a href="#">Rewind Settings</a></li>
+          <li><a href="#">Fast Forward Setting</a></li>
         </ul>
       </li>
     </ul>
 
     <!-- Left Nav Section -->
     <ul class="left">
-      <li><a href="#">Recordings</a></li>
+      <li><a href="#">Users</a></li>
     </ul>
   </section>
 </nav>
- 
 
- <!-- POWER  -->
-<div class="row">
-  <div class="small-6 columns">
-    <ul class="button-group">
-      <a href="#" class="button">ON/OFF</a>
-    </ul>
-  </div>
-
-<!-- RECORD  -->
-  <div class="small-6 columns">
-    <ul class="button-group">
-      <a href="#" class="button">RECORD</a>
-    </ul>
-  </div>
-</div> 
-
-  <!--Row / Column -->
-  <div class="row">
-  <div class="small-12 columns">
-
-    <!--Tab Labels -->
-   <dl class="tabs" data-tab>
-      <dd class="active"><a href="#panel2-1">CONTROLS</a></dd>
-        <dd><a href="#panel2-2">DVR CONTROLS</a></dd>
-
-  </dl>
 
 <!--Tab Content 1 -->
 <!-- A default button-group with small buttons inside -->
 <div class="row">
   <div class="small-12 columns">
-    <div class="tabs-content">
-      <div class="content active" id="panel2-1">
-          <ul class="button-group">
-            <li><a href="#" class="button"> << </a></li>
-            <li><a href="#" class="button"> VOL </a></li>
-            <li><a href="#" class="button"> >> </a></li>
-          </ul>
 
-          <ul class="button-group">
-            <li><a href="#" class="button"> << </a></li>
-            <li><a href="#" class="button"> CHAN </a></li>
-            <li><a href="#" class="button"> >> </a></li>
-          </ul>
 
-          <ul class="button-group">
-            <li><a href="#" class="button"> << </a></li>
-            <li><a href="#" class="button"> GUIDE </a></li>
-            <li><a href="#" class="button"> >> </a></li>
-          </ul>
-      </div>
+        <dl class="tabs" data-tab>
+          <dd class="active"><a href="#panel2-1">Basic Controls</a></dd>
+          <dd><a href="#panel2-2">DVR Controls</a></dd>
+          <dd><a href="#panel2-3">Users</a></dd>
+        </dl>
+        <div class="tabs-content">
+          <div class="content active" id="panel2-1">
+
+            <ul class="button-group">
+              <li><a href="#" class="button"> << </a></li>
+              <li><a href="#" class="button"> CHAN </a></li>
+              <li><a href="#" class="button"> >> </a></li>
+            </ul>
+
+            <ul class="button-group">
+              <li><a href="#" class="button"> << </a></li>
+              <li><a href="#" class="button"> VOL </a></li>
+              <li><a href="#" class="button"> >> </a></li>
+            </ul>
+
+            <ul class="button-group">
+              <li><a href="#" class="button"> ^ </a></li>
+              <li><a href="#" class="button"> Guide </a></li>
+              <li><a href="#" class="button"> v </a></li>
+            </ul>
+
+            <!-- Number Pad -->
+  <div class="row">
+    <div class="columns small-12">
+      
+      <!-- [] Make Tables 100% wide -->
+      <table>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td>0</td>
+            <td> </td>          
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+<hr>
+
+          </div>
+
+          <div class="content" id="panel2-2">
+
+            <ul class="button-group">
+                <li><a href="#" class="button"> |> </a></li>
+                <li><a href="#" class="button"> PLAY </a></li>
+              </ul>
+
+              <ul class="button-group">
+                <li><a href="#" class="button"> || </a></li>
+                <li><a href="#" class="button"> PAUSE</a></li>
+              </ul>
+              
+
+            <ul class="button-group">
+              <li><a href="#" class="button"> << </a></li>
+              <li><a href="#" class="button"> REW </a></li>
+              <li><a href="#" class="button"> >> </a></li>
+            </ul>
+
+            <ul class="button-group">
+              <li><a href="#" class="button"> << </a></li>
+              <li><a href="#" class="button"> FF </a></li>
+              <li><a href="#" class="button"> >> </a></li>
+            </ul>
+
+
+          </div>
+          <div class="content" id="panel2-3">
+            <table>
+              <thead>
+                <tr>
+                  <th width="200">User</th>
+                  <th width="200">Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="label">Primary User</span></td>
+                  <td>Beverly Berg</td>
+                </tr>
+
+                <tr>
+                  <td><span class="label">Primary User</span></td>
+                  <td>Steve Berg</td>
+                </tr>
+
+                <tr>
+                  <td><span class="label">Secondary User</span></td>
+                  <td>Sonja Berg</td>
+                </tr>
+
+                <tr>
+                  <td><span class="label">Secondary User</span></td>
+                  <td>Kelsey Berg</td>
+                </tr>
+
+                 <tr>
+                  <td><span class="label">Tertiary User</span></td>
+                  <td>Corey Sizemore</td>
+                </tr>
+          
+              </tbody>
+            </table>
+
+
+          </div>
+        </div>
+
     </div>
   </div>
 
@@ -108,8 +214,7 @@
 
 </div>
 <!-- Close Tab Container -->
-
-  </div>
+</div>
 
 
 <!-- RECORDINGS -->
